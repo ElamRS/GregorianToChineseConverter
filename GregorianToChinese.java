@@ -84,7 +84,7 @@ public class GregorianToChinese {
 		 * Por exemplo, para o caso de uma dif igual a 1253
 		 * o restoDiv para esta dif será restoDiv == 1253 - (1092.63183 * divisaoInt) == 160.36817
 		 * ou seja, estará no ano imediatamente após o último daquele bloco de 3 anos.
-		 * No caso do exemplo, estaria no ano do  
+		 * No caso do exemplo, estaria no ano do Dragão
 		*/
 		
 		/* if case para checar se a diferença é maior que o bloco de padrão repetido
@@ -139,7 +139,7 @@ public class GregorianToChinese {
 				System.out.println("Ano do Coelho!");
 				break;
 			case 5:
-				System.out.println("Ano do Dragão!");
+				System.out.println("Ano do Dragao!");
 				break;
 			case 6:
 				System.out.println("Ano da Serpente!");
