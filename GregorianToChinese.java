@@ -22,8 +22,8 @@ public class GregorianToChinese {
 		// Data Base a partir da qual será calculada a diferença de números
 		final LocalDate dataBase = LocalDate.of(1900, 1, 31);
 		// Duração dos anos no calendário chinês
-		final double anoNormal = 354.36708; // Ano Normal: 12 * 29,53059 = 354,36708
-		final double anoBissexto = 383.89767; // Ano Bissexto: 13 * 25,53059 = 383,89767
+		// Ano Normal: 12 * 29,53059 = 354,36708
+		// Ano Bissexto: 13 * 25,53059 = 383,89767
 		
 		// Input de data do usuário
 		LocalDate dataDigitada = lerDataNascimento();
